@@ -1,7 +1,7 @@
 {
-  "name": "tiny-tfidf-without-filter-test",
-  "version": "0.0.2",
-  "description": "A fork of https://github.com/kerryrodden/tiny-tfidf, removes text filter and lowercases",
+  "name": "tiny-tfidf-3-ngram",
+  "version": "0.0.1",
+  "description": "A fork of https://github.com/kerryrodden/tiny-tfidf, removes text splitting and creates 3 ngrams instead.",
   "main": "index.js",
   "type": "module",
   "scripts": {

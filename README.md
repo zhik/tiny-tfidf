@@ -1,6 +1,6 @@
-# tiny-tfidf
+# tiny-tfidf-3-ngram
 
-A fork of https://github.com/kerryrodden/tiny-tfidf, removes text filter and lowercases
+A fork of https://github.com/kerryrodden/tiny-tfidf, removes text splitting and creates 3 ngrams instead.
 
 ---
 

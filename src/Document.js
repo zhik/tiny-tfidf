@@ -8,7 +8,7 @@ export default class Document {
   constructor(text) {
     this._text = text;
     this._words = text
-      .match(/[a-zA-ZÀ-ÖØ-öø-ÿ]+/g)
+      .match(/.{3}/g)
       // .filter(word => {
       //   // Exclude very short terms and terms that start with a number
       //   // (stopwords are dealt with by the Corpus class)
