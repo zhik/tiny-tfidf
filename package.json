@@ -1,7 +1,7 @@
 {
-  "name": "tiny-tfidf",
-  "version": "0.9.1",
-  "description": "Minimal implementations of a couple of classic text analysis tools (TF-IDF and cosine similarity) ",
+  "name": "tiny-tfidf-without-filter-test",
+  "version": "0.0.2",
+  "description": "A fork of https://github.com/kerryrodden/tiny-tfidf, removes text filter and lowercases",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kerryrodden/tiny-tfidf.git"
+    "url": "git+https://github.com/zhik/tiny-tfidf.git"
   },
   "keywords": [
     "TFIDF",
@@ -20,9 +20,9 @@
   "author": "kerryrodden",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kerryrodden/tiny-tfidf/issues"
+    "url": "https://github.com/zhik/tiny-tfidf.git/issues"
   },
-  "homepage": "https://github.com/kerryrodden/tiny-tfidf#readme",
+  "homepage": "https://github.com/zhik/tiny-tfidf.git#readme",
   "devDependencies": {
     "tape": "^4.11.0"
   }

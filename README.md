@@ -1,5 +1,8 @@
 # tiny-tfidf
-![npm](https://img.shields.io/npm/v/tiny-tfidf.svg)
+
+A fork of https://github.com/kerryrodden/tiny-tfidf, removes text filter and lowercases
+
+---
 
 Minimal implementations of a couple of classic text analysis tools (TF-IDF and cosine similarity). Everything is done in memory so this library is not suitable for large-scale use. Instead, the goal is to create something simple that can be used to explain or experiment with the techniques, using a small set of documents. For a detailed and interactive explanation, see this [Observable notebook](https://observablehq.com/@kerryrodden/introduction-to-text-analysis-with-tf-idf).
 
